@@ -6,6 +6,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Alegreya', serif;
 }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -69,34 +70,38 @@ section{
 	font-weight: bold;
 }
 .about_me{
-  margin-top: 15%;
+  margin-top: 13%;
   display: flex;
-  justify-content: center;
-
+	max-width: 80%;
 }
 .emma{
+	display: none;
   font-family: "roboto", sans-serif;
 	font-weight: lighter;
   font-size: 3em;
   color: #e6005c;
+	margin-left: 35%;
 
 }
-.hithere{
+.hithere {
+	display: none;
 	font-weight: bolder;
 	font-size: 1.5em;
-	transition: .5s;
-}
-.hithere:hover{
 	color:  #e6005c;
+
 }
+
 .about_para{
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   max-width: 40%;
   margin-left: 5%;
+	position: static;
 
 }
-
+.context{
+	display: none;
+}
 .container{
   display: flex;
   margin: 30px;
