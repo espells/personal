@@ -8,31 +8,6 @@ $(document).ready(function () {
 
 
 
-// $(document).ready(function(){
-//     $(".hithere").blast({
-//       delimiter: "character",
-//       customClass: "questionChar",
-//       generateIndexID: true
-//     });
-//
-//
-//
-//     $(".blast").hide();
-//
-//     $('.hithere').show();
-//
-//
-//     var currentQuestionChar = 0;
-//
-//     setTimeout(function(){
-//
-//         setInterval(function(){
-//           $("#questionChar-" + currentQuestionChar).show();
-//           currentQuestionChar++;
-//         },60)
-//
-//     },300);
-//
-// });
+// 
 
   });
